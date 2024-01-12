@@ -1,0 +1,20 @@
+:root {
+  --body-bg: #123;
+  --nav-bg: #234;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: system-ui;
+}
+
+body {
+  margin: 0;
+  font-size: 1.25rem;
+  background: var(--body-bg);
+  padding-inline-start: 20rem;
+  color: #fff;
+}
